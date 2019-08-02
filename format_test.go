@@ -10,7 +10,7 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/struct"
-	"github.com/jhump/protoreflect/desc"
+	"github.com/hoveychen/protoreflect/desc"
 	"google.golang.org/grpc/metadata"
 )
 

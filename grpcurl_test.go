@@ -14,8 +14,8 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	jsonpbtest "github.com/golang/protobuf/jsonpb/jsonpb_test_proto"
 	"github.com/golang/protobuf/proto"
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/grpcreflect"
+	"github.com/hoveychen/protoreflect/desc"
+	"github.com/hoveychen/protoreflect/grpcreflect"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
@@ -25,8 +25,8 @@ import (
 	reflectpb "google.golang.org/grpc/reflection/grpc_reflection_v1alpha"
 	"google.golang.org/grpc/status"
 
-	. "github.com/fullstorydev/grpcurl"
-	grpcurl_testing "github.com/fullstorydev/grpcurl/testing"
+	. "github.com/hoveychen/grpcurl"
+	grpcurl_testing "github.com/hoveychen/grpcurl/testing"
 )
 
 var (

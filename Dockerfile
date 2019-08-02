@@ -8,10 +8,10 @@ RUN apk update && apk add --no-cache ca-certificates git gcc g++ libc-dev
 # create non-privileged group and user
 RUN addgroup -S grpcurl && adduser -S grpcurl -G grpcurl
 
-WORKDIR /tmp/fullstorydev/grpcurl
+WORKDIR /tmp/hoveychen/grpcurl
 # copy just the files/sources we need to build grpcurl
-COPY VERSION *.go go.* /tmp/fullstorydev/grpcurl/
-COPY cmd /tmp/fullstorydev/grpcurl/cmd
+COPY VERSION *.go go.* /tmp/hoveychen/grpcurl/
+COPY cmd /tmp/hoveychen/grpcurl/cmd
 # and build a completely static binary (so we can use
 # scratch as basis for the final image)
 ENV CGO_ENABLED=0

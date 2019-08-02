@@ -12,7 +12,7 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/fullstorydev/grpcurl"
+	"github.com/hoveychen/grpcurl"
 )
 
 // TestServer implements the TestService interface defined in example.proto.
